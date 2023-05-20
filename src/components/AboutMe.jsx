@@ -16,7 +16,6 @@ function AboutMe() {
                         <div className="about-btns">
                             <a className="resume" href={cv} download="cv_Daniela_Ciubari.pdf">Download CV</a>
                         </div>
-                        <a href="https://airport-md.vercel.app">egeg</a>
                     </div>
                 </div>
             </div>
