@@ -1,4 +1,4 @@
-import Me from '../img/my.JPG'
+import Me from '../img/hero-img/my.JPG'
 
 function Main() {
     return (

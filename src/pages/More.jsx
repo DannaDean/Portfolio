@@ -1,4 +1,4 @@
-import meimg from "../img/meimg.png";
+import meimg from "../img/more-img/meimg.png";
 import puzzle from "../img/more-img/puzzle.png";
 import dance from "../img/more-img/dance.png";
 import gaming from "../img/more-img/gaming.png";

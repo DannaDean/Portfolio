@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Logo from "../img/logo.png";
+import Logo from "../img/header-img/logo.png";
 import { useState } from 'react';
 
 function Header() {

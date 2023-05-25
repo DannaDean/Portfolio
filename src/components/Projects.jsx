@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import carQuiz from "../img/car-quiz.png";
-import clothesShop from "../img/cloths-shop.png";
-import weatherApp from "../img/weatherapp.jpg";
-import dodoapp from "../img/todo-app.png"
-import itstep from "../img/itstep.jpg"
+import carQuiz from "../img/slider-img/car-quiz.png";
+import clothesShop from "../img/projects-img/cloths-shop.png";
+import weatherApp from "../img/projects-img/weatherapp.jpg";
+import dodoapp from "../img/slider-img/todo-app.png"
+import itstep from "../img/projects-img/itstep.jpg"
 import { ProjectItem } from "./ProjectsItem";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';

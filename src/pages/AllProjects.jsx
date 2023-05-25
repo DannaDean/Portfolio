@@ -1,14 +1,14 @@
-import carQ from "../img/car-q.png";
-import clothesShop from "../img/cloths-shop.png";
-import weatherApp from "../img/weatherapp.jpg";
-import todo from "../img/todo2.png";
-import itstep from "../img/itstep.jpg";
-import porshe from "../img/porsche.jpg";
-import skyrim from "../img/skyrim.png";
-import portfolio from "../img/portfolio.png";
-import railway from "../img/railway.jpg";
-import airport from "../img/airport.png";
-import furniture from "../img/furniture.png";
+import carQ from "../img/projects-img/car-q.png";
+import clothesShop from "../img/projects-img/cloths-shop.png";
+import weatherApp from "../img/projects-img/weatherapp.jpg";
+import todo from "../img/projects-img/todo2.png";
+import itstep from "../img/projects-img/itstep.jpg";
+import porshe from "../img/projects-img/porsche.jpg";
+import skyrim from "../img/projects-img/skyrim.png";
+import portfolio from "../img/projects-img/portfolio.png";
+import railway from "../img/projects-img/railway.jpg";
+import airport from "../img/projects-img/airport.png";
+import furniture from "../img/projects-img/furniture.png";
 import {Link} from 'react-router-dom';
 
 function AllProjects() {

@@ -183,12 +183,11 @@ body {
 // Main ---------------------------------------------
 
 .main {
-  background: url("./img/flower.png");
+  background: url("./img/hero-img/flower.png");
   background-repeat: no-repeat;
   background-position: left 200px;
   background-color: var(--main-color);
   width: 100vw;
-  // height: 100%;
   @media screen and (max-width:1024px){
     background: none;
     background-color: var(--main-color);

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import dev from "../img/dev.jpg";
-import cv from "../img/resume.pdf";
+import dev from "../img/about-me-img/dev.jpg";
+import cv from "../img/about-me-img/resume.pdf";
 // import More from "../pages/More";
 
 function AboutMe() {
