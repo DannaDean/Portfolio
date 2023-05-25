@@ -9,6 +9,7 @@ import portfolio from "../img/portfolio.png";
 import railway from "../img/railway.jpg";
 import airport from "../img/airport.png";
 import furniture from "../img/furniture.png";
+import {Link} from 'react-router-dom';
 
 function AllProjects() {
     return(
@@ -31,11 +32,11 @@ function AllProjects() {
                                     <span>SCSS</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/Portfolio.git" target="_blnk">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <Link to={`/`}>Live Preview</Link>
                                 </div>
                             </div>
                         </div>
@@ -53,11 +54,11 @@ function AllProjects() {
                                     <span>Tailwindcss</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/ToDoApp.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://to-do-app-delta-wine.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -74,11 +75,11 @@ function AllProjects() {
                                     <span>JS</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/Weather-app.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://weather-app-six-sand-18.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -95,11 +96,11 @@ function AllProjects() {
                                     <span>JS</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/Cloths-shop.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://cloths-shop.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -117,11 +118,11 @@ function AllProjects() {
                                     <span>JS</span>
                                 </div>
                                 <div className="projects-btns blured">
-                                    <button>
+                                    <a href="#" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="#" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -143,11 +144,11 @@ function AllProjects() {
                                     <span>SCSS</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/IT-Step.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://it-step.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -164,11 +165,11 @@ function AllProjects() {
                                     <span>JS</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/Car-quiz.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://car-quiz.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -185,11 +186,11 @@ function AllProjects() {
                                     <span>JS</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/Railway.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://railway-bay.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -205,11 +206,11 @@ function AllProjects() {
                                     <span>CSS3</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/Porche.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://porche.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -225,11 +226,11 @@ function AllProjects() {
                                     <span>CSS3</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/AirportMD.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://airport-md.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>
@@ -245,11 +246,11 @@ function AllProjects() {
                                     <span>CSS3</span>
                                 </div>
                                 <div className="projects-btns">
-                                    <button>
+                                    <a href="https://github.com/DannaDean/Skyrim.git" target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                         Github
-                                    </button>
-                                    <button>Live Preview</button>
+                                    </a>
+                                    <a href="https://skyrim-three.vercel.app" target="_blank">Live Preview</a>
                                 </div>
                             </div>
                         </div>

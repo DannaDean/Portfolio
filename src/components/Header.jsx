@@ -18,10 +18,13 @@ function Header() {
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/"><a href="#">Home</a></Link>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/AllProjects/"><a href="#">Portfolio</a></Link>
+                            <Link to="/More/">About Me</Link>
+                        </li>
+                        <li>
+                            <Link to="/AllProjects/">Portfolio</Link>
                         </li>
                     </ul>
                 </nav>
@@ -36,10 +39,13 @@ function Header() {
                     <div className="menu-text">
                     <ul>
                         <li>
-                            <Link to="/"><a href="#">Home</a></Link>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                        <Link to="/AllProjects/"><a href="#">Portfolio</a></Link>
+                            <Link to="/More/">About Me</Link>
+                        </li>
+                        <li>
+                            <Link to="/AllProjects/">Portfolio</Link>
                         </li>
                     </ul>
                 </div>    

@@ -9,11 +9,11 @@ export const ProjectItem = (props) => {
             <p>{props.description}</p>
         </div>
         <div className="info-btns">
-            <button>
+            <a href={props.github} target="_blank">
                 <i class="fa-brands fa-github"></i>
                 <span>Github</span>
-            </button>
-            <button className="active">Live Preview</button>
+            </a>
+            <a href={props.live} className="active" target="_blank">Live Preview</a>
         </div>
     </div>
 }

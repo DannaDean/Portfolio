@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import dev from "../img/dev.jpg";
-import cv from "../img/resume.pdf"
+import cv from "../img/resume.pdf";
+// import More from "../pages/More";
 
 function AboutMe() {
     return (
@@ -12,8 +14,10 @@ function AboutMe() {
                     </div>
                     <div className="about-text">
                         <h2>Who Am I?</h2>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <p>
+                            Welcome to my page! My name is Daniela Ciubari, and I'm a 20-year-old student. My journey into the world of web development began around three years ago when I was still in high school. Initially, programming was far from my mind, but it all changed when we had a few lessons on HTML and CSS. I found myself genuinely captivated by these topics, but unfortunately, I forgot about them soon after. However, fate had other plans for me... </p>
                         <div className="about-btns">
+                            <Link to={`/More/`}>More</Link>
                             <a className="resume" href={cv} download="cv_Daniela_Ciubari.pdf">Download CV</a>
                         </div>
                     </div>

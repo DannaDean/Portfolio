@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 import './App.scss';
 import AllProjects from './pages/AllProjects';
+import More from './pages/More';
 import Layout from './components/Layout';
 import AboutMe from './components/AboutMe';
 import Main from './components/Main'
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='' element={<Home />}></Route>
           <Route path='/AllProjects/' element={<AllProjects />} />
+          <Route path='/More/' element={<More />}></Route>
         </Routes>
       </Layout>
     </BrowserRouter>
